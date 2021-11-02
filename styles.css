@@ -1,20 +1,35 @@
 body{
-    background:skyblue;
+    background:#2F4F4F;
     font-family: 'Times New Roman', Times, sans-serif;
+}
+h1{
+    color: white;
 }
 
 .assignment{
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: whitesmoke;
+    background: #F0E9EC;
 }
 
 .assignment img{
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 4px solid black;
+}
+.assignment img:hover{
+    border: 4px dashed blue;;
 }
 
 h1{
     text-align: center;
+}
+
+a   {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blue;
 }
